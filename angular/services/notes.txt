@@ -1,0 +1,11 @@
+Services are used from common data
+syntax for creating service : ng generate service service-name
+we get components from Services:
+    -> Depedency Injection - it is a design pattern which create a new instance of parent values in the child so that if parent changes the values aslo child will not get effected.
+    -> to change depedency ijection in angular we will inject the service in the parameters of constructor
+    for API we need to use default service HttpCilent
+
+1. first we need to import HttpClientModule in module.ts
+2. go to service and inject HttpClient
+
+HttpCilent return obvervable, it means multiple promises, u will resolve it by subscribe 

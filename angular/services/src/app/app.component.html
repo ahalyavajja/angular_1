@@ -1,0 +1,7 @@
+<h1>Navvi Navvi sachipo 😆😆</h1>
+<div class="jokes">
+  <div class="joke" *ngFor="let j of jokes">
+    <button (click)="togglePunchline(j)">{{ j.setup }}</button>
+    <h1 *ngIf="j.showPunchline">{{ j.punchline }}🤣</h1>
+  </div>
+</div>

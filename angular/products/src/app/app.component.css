@@ -1,0 +1,27 @@
+.container{
+    background-color: aquamarine;
+}
+.products
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color: tomato;
+    background-color: beige;
+}
+.product
+{
+    height: 400px;
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px black;
+}
+button:hover{
+    background-color: blanchedalmond;
+}
+button{
+    border-radius: 19%;
+    background-color: cadetblue;
+}

@@ -1,0 +1,27 @@
+header img{
+    height: 100px;
+    width: 100px;
+}
+header{
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+li{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+    color: whi;
+
+}

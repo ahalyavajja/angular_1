@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>U know something laughing is good for Health 😉</h1>
+<div class="jokes">
+  <div class="joke" *ngFor="let j of jokes">
+    <!--<h3>{{ j.setup }}</h3>>-->
+    <button (click)="showPunchline(j)">{{ j.setup }}</button>
+    <div *ngIf="j.showPunchline" class="punch">{{ j.punchline }} 😁</div>
+  </div>
+</div>
+</div>

@@ -1,0 +1,21 @@
+<h2>Pipes</h2>
+<P>{{name1 | uppercase}}</P>
+<p>{{name | lowercase}}</p>
+<p>Price: {{numer | currency:"INR"}}</p>
+<p>{{dt | date : "dd/MM/YYYY"}}</p>
+<p>{{num | practise1}}</p>
+<p>{{obj | json}}</p>
+<p>{{name | sub:2:5}}</p>
+<!--
+  default pipes:
+  uppercase - text into uppercase
+  lowercase - text into lowercase
+  currency:"" - converts given value into required currency
+  date - converts given data into date format
+  json - converts data into json
+  async pipes - converts data into asynchronous
+
+  userdefines pipes:
+  syntax : ng generate pipe pipe-name
+
+-->

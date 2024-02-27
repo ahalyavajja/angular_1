@@ -1,0 +1,17 @@
+<div class="main" [ngClass]="{'dark':isDark}">
+  <button (click)="changetheme()">
+    {{isDark ? '🌛':'☀️'}}</button>
+  <h1>Movie Search App</h1>
+  <div [ngStyle]="{'display':isSuccess?'none':'block'}">
+  <input type="text" placeholder="enter the movie "[(ngModel)]="st">
+  <button (click)="search()">Search</button>
+  </div>
+<div class="movies">
+  <div class="movie" *ngFor="let m of movies">
+    <img src="{{m.Poster}}" alt={{m.title}}>
+    <h2>{{m.title}}</h2>
+    <p>Relases:<strong>{{m.year}}</strong></p>
+  </div>
+</div>
+</div>
+

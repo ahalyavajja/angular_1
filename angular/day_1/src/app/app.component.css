@@ -1,0 +1,12 @@
+.receipes{
+    display: grid;
+    grid-template-columns: repeat();
+
+}
+.receipe{
+    box-shadow: 5px 5px 5px black;
+}
+.receipe img{
+    height: 100px;
+    width: 100px;
+}
